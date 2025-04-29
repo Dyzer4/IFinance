@@ -1,0 +1,32 @@
+@import url(./global.css);
+
+header{
+    margin: 0 auto;
+    width: 986px;
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 120px;
+}
+
+h1 {
+    color: var(--light-text-color);
+    font-size: var(--h3);
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+header nav ul a {
+    color: var(--light-text-color);
+    text-decoration: none;
+}
+
+.btn-wrapper button:first-of-type {
+    background: none;
+}

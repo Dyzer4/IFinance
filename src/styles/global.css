@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Montserrat-regular';
+    background-color: var(--dark-background-color);
+    width: 1512px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--light-background-color);
+    cursor: pointer;
+    padding: 15px;
+    font-size: var(--paragraph);
+    font-weight: bold;
+}
+
+:root {
+    --dark-background-color: #252B42;
+    --light-text-color: #ffffff;
+    --primary-color: #23a6f0;
+    --second-text-color: #737373; 
+    --light-background-color: #ffffff;
+    --text-color: #252b42;
+    --muted-color: #bdbdbd;
+    --disabled-color: #8ec2f2;
+    --light-gray-1: #fafafa;
+    --light-gray-2: #ececec;
+
+    --h1: 58px;
+    --h2: 40px;
+    --h3: 24px;
+    --h4: 20px;
+    --paragraph: 14px;
+}
