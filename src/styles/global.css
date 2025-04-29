@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Montserrat-regular';
-    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-Regular.ttf);
+    src: url(/IFinance/src/assets/fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Montserrat-medium';
-    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-Medium.ttf);
+    src: url(/IFinance/src/assets/fonts/Montserrat-Medium.ttf);
 }
 
 @font-face {
     font-family: 'Montserrat-bold';
-    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-Bold.ttf);
+    src: url(/IFinance/src/assets/fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Montserrat-semibold';
-    src: url(/FIC_WEBDESIGNER/IFinance/src/assets/fonts/Montserrat-SemiBold.ttf);
+    src: url(/IFinance/src/assets/fonts/Montserrat-SemiBold.ttf);
 }
 
 * {
@@ -28,6 +28,7 @@ body {
     font-family: 'Montserrat-regular';
     background-color: var(--dark-background-color);
     width: 1512px;
+    margin: 0 auto;
 }
 
 button {
@@ -38,6 +39,14 @@ button {
     padding: 15px;
     font-size: var(--paragraph);
     font-weight: bold;
+}
+
+h2 {
+    font-size: var(--h2);
+    font-family: var(--bold);
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--light-text-color);
 }
 
 :root {
@@ -56,5 +65,12 @@ button {
     --h2: 40px;
     --h3: 24px;
     --h4: 20px;
+    --h5: 16px;
     --paragraph: 14px;
+
+    --medium: 'Montserrat-medium';
+    --bold: 'Montserrat-bold';
+    --extrabold: 'Montserrat-extrabold';
+    --regular:'Montserrat-regular';
+    --semibold: 'Montserrat-semibold';
 }
