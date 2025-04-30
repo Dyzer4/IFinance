@@ -18,6 +18,11 @@
     src: url(/IFinance/src/assets/fonts/Montserrat-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: 'Montserrat-extrabold';
+    src: url(/IFinance/src/assets/fonts/Montserrat-ExtraBold.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;

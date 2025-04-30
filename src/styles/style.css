@@ -333,3 +333,106 @@ main {
 .pricing-card-btn button {
     padding: 15px 40px;
 }
+
+/* WORLD */
+
+.world {
+    display: flex;
+    gap: 30px;
+    padding: 50px 232px;
+}
+
+.world-titles {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 602px;
+}
+
+.world-titles h2 {
+    width: 476px;
+    font-family: var(--bold);
+    font-size: var(--h2);
+    text-align: start;
+}
+
+.world-titles p {
+    font-family: var(--medium);
+    font-size: var(--paragraph);
+    line-height: 20px;
+    color: var(--light-text-color);
+    width: 455px;
+}
+
+/* APPOINTMENT */
+
+.appointment {
+    padding: 101px 317.5px;
+    display: flex;
+}
+
+.form-appointment {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-background-color);
+    padding: 40px 50px;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.form-appointment h2 {
+    color: var(--text-color);
+    font-family: var(--bold);
+    font-size: var(--h3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-family: var(--semibold);
+    font-size: var(--paragraph);
+    color: var(--text-color);
+}
+
+input {
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    padding: 11px 21px;
+    border-radius: 5px;
+    width: 507px;
+}
+
+input::placeholder {
+    font-family: var(--regular);
+    font-size: var(--paragraph);
+    color: var(--second-text-color);
+}
+
+select {
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    padding: 11px 21px;
+    border-radius: 5px;
+    width: 550px;
+    color: var(--second-text-color);
+}
+
+select{
+    -webkit-appearance: none;
+    background-image: url(/IFinance/src/assets/img/select-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+form button {
+    margin-top: 40px;
+    font-family: var(--bold);
+    font-size: var(--paragraph);
+    padding: 15px 40px;
+}
+
