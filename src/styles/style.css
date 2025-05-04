@@ -196,6 +196,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .comments p {
@@ -544,7 +545,6 @@ footer {
 @media (max-width: 500px) {
     body {
         width: 100%;
-        
     }
 
     header {
@@ -705,5 +705,115 @@ footer {
 }
 
 @media (max-width: 850px) {
-    
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        gap: 8%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 10%;
+    }
+
+    main img {
+        width: 90%;
+    }
+
+    .strategy-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .downloads-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .pricing {
+        padding: 15px;
+    }
+
+    .pricing p {
+        width: 100%;
+    }
+
+    .pricing-card-text p {
+        color: var(--second-text-color);
+        font-family: var(--semibold);
+        font-size: var(--paragraph);
+        text-align: start;
+        width: 217px;
+    }
+
+    .pricing-cards {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .pricing-card {
+        padding: 25px;
+        gap: 20px;
+    }
+
+    .world {
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .world-titles {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .world-titles h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .world-titles p {
+        width: 100%;
+    }
+
+    .world img {
+        width: 80%;
+    }
+
+    .appointment {
+        padding: 50px 3%;
+        width: 100%;
+    }
+
+    .form-appointment {
+       width: 52.2%;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    input {
+        width: 89%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .footer-nav-content {
+        padding: 80px ;
+        column-gap: 50px;
+    }
+
+    .footer-nav-columns h2 {
+        font-size: var(--h5);
+    }
 }
