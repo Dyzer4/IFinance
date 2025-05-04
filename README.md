@@ -50,7 +50,7 @@ desafio de um projeto em grupo proposto em sala de aula, para colocar em pratica
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
 
-![Web1]()
+![Web1](https://github.com/Dyzer4/IFinance/blob/main/src/assets/img/thumbnail.png)
 
 ---
 
