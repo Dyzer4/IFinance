@@ -29,13 +29,6 @@
     border: 0;
 }
 
-body {
-    font-family: 'Montserrat-regular';
-    background-color: var(--dark-background-color);
-    width: 1512px;
-    margin: 0 auto;
-}
-
 button {
     border-radius: 5px;
     background-color: var(--primary-color);
