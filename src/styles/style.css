@@ -309,6 +309,7 @@ main {
 .pricing-valor {
     color: var(--primary-color);
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -436,3 +437,65 @@ form button {
     padding: 15px 40px;
 }
 
+/* FOOTER */
+
+footer {
+    border-top: 1px solid var(--light-background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-content {
+    padding: 80px 231px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.footer-nav-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-nav-columns h2 {
+    font-family: var(--bold);
+    font-size: var(--h3);
+    text-align: start;
+}
+
+.footer-nav-columns p {
+    color: var(--light-text-color);
+    font-family: var(--medium);
+    font-size: var(--paragraph);
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-nav-columns ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-nav-columns a {
+    text-decoration: none;
+    color: var(--light-text-color);
+    font-family: var(--semibold);
+    font-size: var(--paragraph);
+    text-transform: capitalize;
+}
+
+.copyright {
+    background-color: var(--light-background-color);
+    padding: 25px 235px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--second-text-color);
+    font-family: var(--semibold);
+    font-size: var(--paragraph);
+}
