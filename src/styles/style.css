@@ -463,9 +463,6 @@ select {
     border-radius: 5px;
     width: 550px;
     color: var(--second-text-color);
-}
-
-select{
     -webkit-appearance: none;
     background-image: url(/IFinance/src/assets/img/select-icon.svg);
     background-repeat: no-repeat;
