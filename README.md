@@ -27,7 +27,7 @@
  - fonts
  - images
 
--index.html
+- index.html
 ---
 
 
